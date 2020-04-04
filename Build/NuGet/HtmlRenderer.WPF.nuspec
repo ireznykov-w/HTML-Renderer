@@ -6,9 +6,9 @@
     <title>HTML Renderer for WPF</title>
     <authors>Arthur Teplitzki</authors>
     <owners>Arthur Teplitzki</owners>
-    <licenseUrl>https://htmlrenderer.codeplex.com/license</licenseUrl>
+    <license type="expression">BSD-3-Clause</license>
     <projectUrl>https://htmlrenderer.codeplex.com/</projectUrl>
-    <iconUrl>https://github.com/ArthurHub/HTML-Renderer/blob/master/html.ico?raw=true</iconUrl>
+    <icon>images\html.ico</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>
       Multipurpose (UI Controls / Image generation), 100% managed (C#), High performance HTML Rendering library for WPF.
@@ -38,16 +38,11 @@
       <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
     </frameworkAssemblies>
     <dependencies>
-      <dependency id="HtmlRenderer.Core" version="1.5.1-beta1"/>
+      <dependency id="HtmlRenderer.Core" version="1.5.2"/>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Release\WPF\net30\HtmlRenderer.WPF.dll" target="lib\net30\HtmlRenderer.WPF.dll" />
-    <file src="..\Release\WPF\net30\HtmlRenderer.WPF.pdb" target="lib\net30\HtmlRenderer.WPF.pdb" />
-    <file src="..\Release\WPF\net35\HtmlRenderer.WPF.dll" target="lib\net35-client\HtmlRenderer.WPF.dll" />
-    <file src="..\Release\WPF\net35\HtmlRenderer.WPF.pdb" target="lib\net35-client\HtmlRenderer.WPF.pdb" />
-    <file src="..\Release\WPF\net40\HtmlRenderer.WPF.dll" target="lib\net40-client\HtmlRenderer.WPF.dll" />
-    <file src="..\Release\WPF\net40\HtmlRenderer.WPF.pdb" target="lib\net40-client\HtmlRenderer.WPF.pdb" />
+    <file src="..\Release\html.ico" target="images\" />
     <file src="..\Release\WPF\net45\HtmlRenderer.WPF.dll" target="lib\net45\HtmlRenderer.WPF.dll" />
     <file src="..\Release\WPF\net45\HtmlRenderer.WPF.pdb" target="lib\net45\HtmlRenderer.WPF.pdb" />
     <file src="HtmlRenderer.WPF.readme.txt" target="readme.txt" />

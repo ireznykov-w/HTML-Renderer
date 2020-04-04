@@ -27,9 +27,9 @@ if %ask%==n goto end
 
 echo.
 echo.
-echo - RUN ARCHIVE...
+echo - DON'T RUN ARCHIVE...
 echo.
-CALL "3 archive.bat"
+rem CALL "3 archive.bat"
 
 echo.
 echo.

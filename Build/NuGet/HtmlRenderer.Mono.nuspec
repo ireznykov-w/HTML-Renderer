@@ -6,9 +6,9 @@
     <title>HTML Renderer for Mono</title>
     <authors>Arthur Teplitzki</authors>
     <owners>Arthur Teplitzki</owners>
-    <licenseUrl>https://htmlrenderer.codeplex.com/license</licenseUrl>
+    <license type="expression">BSD-3-Clause</license>
     <projectUrl>https://htmlrenderer.codeplex.com/</projectUrl>
-    <iconUrl>https://github.com/ArthurHub/HTML-Renderer/blob/master/html.ico?raw=true</iconUrl>
+    <icon>images\html.ico</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>
       Multipurpose (UI Controls / Image generation), 100% managed (C#), High performance HTML Rendering library for Mono.
@@ -35,20 +35,15 @@
     <releaseNotes>See http://htmlrenderer.codeplex.com/releases.</releaseNotes>
     <tags>html render renderer draw control winforms mono</tags>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="" />
-      <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework="net45" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net45" />
     </frameworkAssemblies>
     <dependencies>
-      <dependency id="HtmlRenderer.Core" version="1.5.1-beta1"/>
+      <dependency id="HtmlRenderer.Core" version="1.5.2"/>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Release\Mono\net20\HtmlRenderer.WinForms.dll" target="lib\net20\HtmlRenderer.WinForms.dll" />
-    <file src="..\Release\Mono\net20\HtmlRenderer.WinForms.pdb" target="lib\net20\HtmlRenderer.WinForms.pdb" />
-    <file src="..\Release\Mono\net35\HtmlRenderer.WinForms.dll" target="lib\net35-client\HtmlRenderer.WinForms.dll" />
-    <file src="..\Release\Mono\net35\HtmlRenderer.WinForms.pdb" target="lib\net35-client\HtmlRenderer.WinForms.pdb" />
-    <file src="..\Release\Mono\net40\HtmlRenderer.WinForms.dll" target="lib\net40-client\HtmlRenderer.WinForms.dll" />
-    <file src="..\Release\Mono\net40\HtmlRenderer.WinForms.pdb" target="lib\net40-client\HtmlRenderer.WinForms.pdb" />
+    <file src="..\Release\html.ico" target="images\" />
     <file src="..\Release\Mono\net45\HtmlRenderer.WinForms.dll" target="lib\net45\HtmlRenderer.WinForms.dll" />
     <file src="..\Release\Mono\net45\HtmlRenderer.WinForms.pdb" target="lib\net45\HtmlRenderer.WinForms.pdb" />
     <file src="HtmlRenderer.Mono.readme.txt" target="readme.txt" />
